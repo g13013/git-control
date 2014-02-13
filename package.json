@@ -1,0 +1,28 @@
+{
+  "name": "git-control",
+  "version": "0.0.1",
+  "description": "Git operations",
+  "main": "git.js",
+  "scripts": {
+    "test": "echo \"TODO\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g13013/git-control"
+  },
+  "keywords": [
+    "git",
+    "basic",
+    "operations",
+    "promises"
+  ],
+  "author": "Aboubakr GASMI <g13013@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g13013/git-control/issues"
+  },
+  "homepage": "https://github.com/g13013/git-control",
+  "dependencies": {
+    "promised-io": "~0.3.4"
+  }
+}
