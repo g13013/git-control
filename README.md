@@ -18,16 +18,16 @@ Help you perform basic git operations, all operations return promises for easier
 
 
 ###Available commands
-exec: man function that is used by all other commands, execute the given git command, ex: `repo.exec('status');`)
+exec: main function that is used by all other commands, execute the given git command, ex: `repo.exec('status');`<br>
 log, status, tag, submodule, branch, fetch, checkout, pull, add, commit, printInfo
 
 ###Doc
-comming soon!
+Comming soon!
 
 ###Contribution
-if you want to contribute to the project you are very welcome.
+if you want to contribute to the project you are very welcome. let us know what you want to implement or submit directly your pull requests.
 
 ####TODO
-tests,
-jshint,
+tests<br>
+jshint<br>
 support more operations
