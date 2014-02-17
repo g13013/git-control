@@ -1,6 +1,6 @@
 {
   "name": "git-control",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Git operations",
   "main": "git.js",
   "scripts": {
