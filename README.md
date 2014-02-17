@@ -1,5 +1,5 @@
 ##Git operations (Work in progress)
-`git-control` is a node module that helps you perform git operations on a repository. To star, all operations are build arround [Promises/A](http://wiki.commonjs.org/wiki/Promises/A) promises for asynchronious implementation, but there is a plan to support synchronious commands too.
+`git-control` is a node module that helps you perform git operations on a repository. To start, all operations are build arround [Promises/A](http://wiki.commonjs.org/wiki/Promises/A) promises for asynchronious implementation, but there is a plan to support synchronious commands too.
 
 ##Usage:
 ###initializing
