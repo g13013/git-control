@@ -7,6 +7,7 @@
 'use strict';
 
 //TODO read .git file on submodules
+//TODO implement exec-sync
 
 var pio = require('promised-io/promise'),
     util = require('util'),
@@ -354,6 +355,9 @@ Git.prototype = {
 };
 
 module.exports = {
+    exec: function (command) {
+        return Git.prototype.exec(command);
+    },
     repo: function (path) {
         return new Git(path);
     }
