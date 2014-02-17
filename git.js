@@ -75,22 +75,20 @@ var pio = require('promised-io/promise'),
         return pio.seq(seq);
     };
 var Git = function (options) {
-    if (!options) {
-        //TODO improve error message
-        console.warn('nothing to do');
-    }
+    options = options || {};
+
     if (typeof options === 'string') {
-        return this.exec(options);
-    } else {
-        this.path = options.path || '.';
-        this.workTree = options.workTree || options.path || this.workTree;
-        this.gitDir = options.gitDir || (options.path && (options.path + '/.git')) || this.gitDir;
-        this.verbose = options.verbose || false;
-        this.safeMode = options.safeMode || true;
-        this.info = null;
-        this.getInfo.call(this, true);
-        return this;
+        options = {path: options};
     }
+
+    this.path = options.path || '.';
+    this.workTree = options.workTree || options.path || this.workTree;
+    this.gitDir = options.gitDir || (options.path && (options.path + '/.git')) || this.gitDir;
+    this.verbose = options.verbose || false;
+    this.safeMode = options.safeMode || true;
+    this.info = null;
+    this.getInfo.call(this, true);
+    return this;
 };
 
 function copyState(dest, source) {
