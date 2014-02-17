@@ -21,7 +21,7 @@
 * log
 * status
 * tag
-* submodule, (NOTE: exports also submodules, so if you have a submodule called `jquery` in your main repository, you could access its `git-control` repository instance using repo.submodule.jquery`)
+* submodule, (NOTE: exports also submodules, so if you have a submodule called `jquery` in your main repository `myLib`, you could access its `git-control` repository instance using `myLib.submodule.jquery`)
 * branch
 * fetch
 * checkout
