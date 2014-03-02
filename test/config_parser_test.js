@@ -30,6 +30,7 @@ exports['parse'] = {
         }
       }
     };
+
     test.deepEqual(config, expected, 'should return an object of sample_config');
     test.done();
   },
