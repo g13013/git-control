@@ -2,12 +2,12 @@
 
 var gitConfig = require('../lib/utils/git-config-parser.js');
 
-exports['parse'] = {
+exports.parse = {
   setUp: function(done) {
     // setup here
     done();
   },
-  'config': function(test) {
+  config: function(test) {
     var expected,
         config = gitConfig.parse('./test/sample_config');
     test.expect(1);
@@ -33,5 +33,5 @@ exports['parse'] = {
 
     test.deepEqual(config, expected, 'should return an object of sample_config');
     test.done();
-  },
+  }
 };
