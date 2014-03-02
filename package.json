@@ -1,28 +1,43 @@
 {
   "name": "git-control",
-  "version": "0.0.2",
   "description": "Git operations",
-  "main": "git.js",
-  "scripts": {
-    "test": "echo \"TODO\" && exit 1"
+  "version": "0.0.2",
+  "homepage": "https://github.com/g13013/git-control",
+  "author": {
+    "name": "Aboubakr Gasmi",
+    "email": "g13013@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/g13013/git-control"
+    "url": "https://github.com/g13013/git-control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/g13013/git-control/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/g13013/git-control/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/git-control",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "promised-io": "~0.3.4",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
   },
   "keywords": [
     "git",
     "basic",
     "operations",
     "promises"
-  ],
-  "author": "Aboubakr GASMI <g13013@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/g13013/git-control/issues"
-  },
-  "homepage": "https://github.com/g13013/git-control",
-  "dependencies": {
-    "promised-io": "~0.3.4"
-  }
+  ]
 }
