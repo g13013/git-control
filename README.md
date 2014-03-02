@@ -1,9 +1,9 @@
-##Git operations (Work in progress)
-`git-control` is a node module that helps you perform git operations on a repository. To start, all operations are build arround [Promises/A](http://wiki.commonjs.org/wiki/Promises/A) promises for asynchronious implementation, but there is a plan to support synchronious commands too.
+# git-control (beta) [![Build Status](https://secure.travis-ci.org/g13013/git-control.png?branch=master)](http://travis-ci.org/g13013/git-control)
 
-##Usage:
-###initializing
+A node module that helps you perform git operations on a repository. To start, all operations are build arround [Promises/A](http://wiki.commonjs.org/wiki/Promises/A) promises for asynchronious implementation, but there is a plan to support synchronious commands too.
 
+## Getting Started
+Install the module with: `npm install git-control` and then:
 
 	var git = require('git-control'),
 	newRepo =  git.repo({
@@ -30,18 +30,17 @@
 * commit
 * printInfo
 
-###Doc
-Comming soon!
+## Documentation
+_(Coming soon)_
 
-###Contribution
-If you want to contribute to the project you are very welcome. let us know what you want to implement or submit directly your pull requests.
+## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-###TODO
-* Implement tests
-* jshint
+### TODO
+* Implement tests (in progress)
 * Support more operations
 * Support synchronious operations
 
-##License
+## License
 Originally Written by [Aboubakr Gasmi](https://github.com/g13013/) and is licensed under the [MIT license](LICENSE.md)
 
