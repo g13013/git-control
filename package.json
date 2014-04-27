@@ -1,7 +1,7 @@
 {
   "name": "git-control",
   "description": "Git operations",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/g13013/git-control",
   "author": {
     "name": "Aboubakr Gasmi",
