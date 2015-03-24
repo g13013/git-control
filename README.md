@@ -1,3 +1,5 @@
+# NOTE: git-control is no longer maintained because excellent projects that do the same thing like [nodegit](https://github.com/nodegit/nodegit) exist, and i strongly recommend using them instead.
+
 # git-control (beta) [![Build Status](https://secure.travis-ci.org/g13013/git-control.png?branch=master)](http://travis-ci.org/g13013/git-control)
 
 A node module that helps you perform git operations on a repository. To start, all operations are build arround [Promises/A](http://wiki.commonjs.org/wiki/Promises/A) promises for asynchronious implementation, but there is a plan to support synchronious commands too.
@@ -43,4 +45,3 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 Originally Written by [Aboubakr Gasmi](https://github.com/g13013/) and is licensed under the [MIT license](LICENSE.md)
-
